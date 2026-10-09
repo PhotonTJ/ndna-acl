@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+.venv/
+venv/
+dist/
+build/
+tables.tex
+
+# Excluded from the paper-specific review artifact.
+src/ndna_lib/concreteness/
+src/ndna_lib/nephos/
+src/ndna_lib/test.ipynb
+
+# Large model products and local credentials.
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+.env
+wandb/
+
